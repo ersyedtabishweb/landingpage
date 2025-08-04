@@ -1,0 +1,79 @@
+/* style.css */
+
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  header nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f4f4f4;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  footer .social-links a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header {
+      flex-direction: column;
+      text-align: center;
+    }
+    header nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }  
